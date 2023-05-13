@@ -10,7 +10,7 @@ const SkillBar = () => {
             <span className={styles.title}>HTML </span>
             <div className={styles.skillBar}>
               <span className={`${styles.skillPer} ${styles.html}`}>
-              <span className={styles.tooltip}>95%</span>
+                <span className={styles.tooltip}>95%</span>
               </span>
             </div>
           </div>
@@ -19,7 +19,7 @@ const SkillBar = () => {
             <span className={styles.title}>CSS</span>
             <div className={styles.skillBar}>
               <span className={`${styles.skillPer} ${styles.css}`}>
-              <span className={styles.tooltip}>90%</span>
+                <span className={styles.tooltip}>90%</span>
               </span>
             </div>
           </div>
@@ -28,7 +28,7 @@ const SkillBar = () => {
             <span className={styles.title}>JavaScript </span>
             <div className={styles.skillBar}>
               <span className={`${styles.skillPer} ${styles.javascript}`}>
-              <span className={styles.tooltip}>70%</span>
+                <span className={styles.tooltip}>70%</span>
               </span>
             </div>
           </div>
@@ -37,7 +37,7 @@ const SkillBar = () => {
             <span className={styles.title}> MongoDB </span>
             <div className={styles.skillBar}>
               <span className={`${styles.skillPer} ${styles.mongodb}`}>
-              <span className={styles.tooltip}>70%</span>
+                <span className={styles.tooltip}>70%</span>
               </span>
             </div>
           </div>
@@ -46,7 +46,7 @@ const SkillBar = () => {
             <span className={styles.title}> NodeJs </span>
             <div className={styles.skillBar}>
               <span className={`${styles.skillPer} ${styles.node}`}>
-              <span className={styles.tooltip}>70%</span>
+                <span className={styles.tooltip}>70%</span>
               </span>
             </div>
           </div>
@@ -55,15 +55,13 @@ const SkillBar = () => {
             <span className={styles.title}> Google Firebase </span>
             <div className={styles.skillBar}>
               <span className={`${styles.skillPer} ${styles.firebase}`}>
-              <span className={styles.tooltip}>90%</span>
+                <span className={styles.tooltip}>90%</span>
               </span>
             </div>
           </div>
-
         </div>
       </div>
     </>
   );
 };
-
 export default SkillBar;
